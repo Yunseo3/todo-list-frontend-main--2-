@@ -1,0 +1,44 @@
+/* ToDoList.css */
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#task {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#btn1 {
+    padding: 8px;
+}
+
+table {
+    width: 80%;
+    border: "0";
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: floralwhite;
+}
+
+.day {
+    width: 150px;
+    background-color: lightcyan;
+}
+
+.content {
+    flex-direction: row;
+    background-color: lightskyblue;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.task-content button {
+    margin-left: auto; 
+}

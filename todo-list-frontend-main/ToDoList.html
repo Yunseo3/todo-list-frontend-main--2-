@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="ToDoList.css">
+</head>
+
+<body>
+    <h1>To-do List</h1>
+    <input type="text" id="task" name="task" placeholder="일정을 입력하세요" onkeyup="checkEnter(event)">
+    <input type="button" id="btn1" value="할일 추가" onclick="addTask()">
+
+    <table>
+        <thead>
+            <tr>
+                <th class="day">날짜</th>
+                <th class="content" colspan="2">내용</th>
+            </tr>
+        </thead>
+        <tbody id="taskList"></tbody>
+    </table>
+
+    <script src="ToDoList.js"></script>
+</body>
+
+</html>
